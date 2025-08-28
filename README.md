@@ -1,9 +1,7 @@
-# KalmanEnsembling
-Using the [model-ensembler][2] alongside the `examples/SinusoidInterface` from [EnsembleKalmanProcesses][1]
+# Idealised Pine Island example using Kalman Ensembling
+This example describes how to use [EnsembleKalmanProcesses][1] alongside the [model-ensembler][2]. This example is derived from the code in the original library example for learning parameterisations of a sine wave (examples/SinusoidInterface). This current set up is for use on the BAS HPC, on the older workstations (e.g. bslws02). These use an old version of julia (1.8.3) which is not compatible with later versions of EnsembleKalmanProcesses (versions 2.4.0 and later). This example should therefore default to using version 2.3.1 if not specified in the Project.toml file. 
 
 ## Description
-
-This uses a different tool for ensembling as an naive example to demonstrate HPC based Kalman Filtering.
 
 This example is derived from the code in the original library example for learning parameterisations of a sine wave.
 
